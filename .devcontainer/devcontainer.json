@@ -23,7 +23,7 @@
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}${localEnv:USERPROFILE}/.ssh",
-			"target": "/home//.ssh",
+			"target": "/home/vscode/.ssh",
 			"type": "bind"
 		}
 	]
