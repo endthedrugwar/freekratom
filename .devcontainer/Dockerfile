@@ -6,7 +6,7 @@ ARG DEVUSER devuser
 ARG DEVUID 1000
 
 RUN apt-get update -y \
- && apt-get install -y gcc g++ git make cmake adduser sudo libfftw3-dev
+ && apt-get install -y gcc g++ git make cmake adduser sudo libfftw3-dev gromacs
 
 ENV DEVUSER=${DEVUSER}
 RUN adduser --uid ${DEVUID} --disabled-password --gecos "" ${DEVUSER} \
